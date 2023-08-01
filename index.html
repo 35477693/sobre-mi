@@ -1,1 +1,76 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html> <!--Informa al navegador qué versión de HTML se usó para escribir el documento-->
+<html lang="es"> <!--Especificación del idioma del contenido de la página web-->
+
+<head> <!--Comienza la sección de encabezado del documento, donde se proporciona información general (metadatos) incluyendo título y enlaces a scripts y hojas de estilos-->
+    <meta charset="UTF-8"> <!--Metaetiqueta que define el formato de codificación de caracteres Unicode (UTF-8) para el documento-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Metaetiqueta que controla el ancho de la página dependiendo del dispositivo en el que se encuentre el usuario.
+    "width=device-width" establece el ancho inicial del viewport para que coincida con el ancho del dispositivo.
+    "initial-scale=1.0" establece el nivel de zoom inicial cuando el navegador carga la página por primera vez-->
+    <title>Resumen del alumno</title> <!--Título del documento que se muestra en la pestaña de la página-->
+    <link rel="stylesheet" href="styles.css"> <!--Enlace a una hoja de estilos externa-->
+</head>
+
+<body> <!--Inicio de la parte del cuerpo del contenido del documento HTML-->
+
+    <header> <!--Comienza el encabezado de la página, que representa un grupo de ayudas introductorias o de navegación-->
+        <h1>Información del alumno</h1> <!--Marca el tema principal de la página-->
+    </header>
+
+    <nav> <!--Comienza la barra de navegación, que proporciona enlaces de navegación dentro del documento actual o a otros documentos-->
+       <a href="https://www.facebook.com/profile.php?id=100008263533322" target="_blank">Mi Facebook</a><br> <!--Enlace a la página de Facebook que se abre en una nueva pestaña del navegador-->
+       <a href="https://github.com/35477693" target="_blank">Mi GitHub</a> <!--Enlace al perfil de GitHub que se abre en una nueva pestaña del navegador-->
+    </nav>
+
+    <main> <!--Comienza el contenido principal del documento-->
+
+        <section> <!-- Comienza una sección del documento -->
+            <img src="multimedia/Escudo de la República Argentina.jpg" alt="Escudo de la República Argentina">
+            <!--Imagen con el atributo "alt" proporcionando una descripción alternativa en caso de que la imagen no se muestre-->
+        </section>
+
+        <article> <!--Comienza un artículo en el documento-->
+
+            <h2>Datos Básicos</h2> <!--Subtítulo-->
+            <ul> <!--lista no ordenada (unordered list)-->
+                <li><strong>Nombre y Apellido:</strong> Alberto Emanuel Vega</li> <!--Elemento de la lista (list item) en negrita-->
+                <li><strong>Edad:</strong> 32 años</li>
+                <li><strong>País:</strong> Argentina</li>
+            </ul>
+
+        </article>
+
+        <article> <!--Comienza otro artículo con información diferente-->
+
+            <h2>Intereses</h2> <!--Subtítulo-->
+            <ul> <!--lista no ordenada (unordered list)-->
+                <li>Militar</li> <!--Elemento de la lista (list item)-->
+                <li>Deportes</li>
+                <li>Música</li>
+                
+            </ul>
+
+        </article>
+
+        <article> <!--Comienza otro artículo con información diferente-->
+
+            <h2>Experiencias</h2> <!--Subtítulo-->
+            <p>Trabajo en la Armada Argentina desde hace 10 años (Máquinista Naval)</p> <!--Párrafo (paragraph)-->
+
+        </article>
+
+    </main>
+
+    <aside> <!-- Comienza una sección que consiste en contenido que está indirectamente relacionado con el contenido principal del documento-->
+
+        <h2>Contenido relacionado</h2>
+        <video src="multimedia/Himno Nacional Argentino.mp4" controls></video> <!--Video con la opción de "controls" para permitir al usuario controlar la reproducción-->
+
+    </aside>
+
+    <footer> <!--Comienza el pie de página-->
+        <p>Copyrigh 2023. Todos los derechos reservados.</p> <!--Párrafo que muestra el texto del pie de página, indicando derechos de autor y año de derechos reservados-->
+    </footer>
+
+</body> 
+</html> 

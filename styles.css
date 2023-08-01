@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif; /*Establece la fuente*/
+    margin: 0; /*Elimina el margen exterior*/
+    padding: 0; /*Elimina el relleno interior*/
+    background-color: #f4f4f4; /*Establece el color de fondo*/
+}
+
+header {
+    background-color: #354776; /*Establece el color de fondo*/
+    color: white; /*Establece el color del texto*/
+    padding: 10px 0; /*Establece el relleno superior e inferior*/
+    text-align: center; /*Alinea el texto al centro*/
+}
+
+nav {
+    background-color: #ddd; /*Establece el color de fondo*/
+    padding: 10px 0; /*Establece el relleno superior e inferior*/
+    text-align: left; /*Alinea el texto a la izquierda*/
+}
+
+nav a {
+    margin: 0 10px; /*Establece el margen a los lados*/
+    color: #354776; /*Establece el color del texto*/
+    text-decoration: none; /*Elimina la subraya de los enlaces*/
+}
+
+main {
+    max-width: 800px; /*Establece el ancho máximo*/
+    margin: 20px auto; /*Centra el contenido principal horizontalmente y establece un margen alrededor*/
+    padding: 20px; /*Establece el relleno del contenido principal*/
+    background-color: white; /*Establece el color de fondo*/
+    margin-bottom: 80px; /*Establece un margen en la parte inferior*/
+}
+
+section, article {
+    margin-bottom: 20px; /*Establece un margen en la parte inferior*/
+}
+
+section {
+    display: flex; /*Establece el comportamiento de la caja de la sección a flex*/
+    justify-content: center; /*Alinea horizontalmente el contenido de la sección al centro*/
+    align-items: center; /*Alinea verticalmente el contenido de la sección al centro*/
+    height: 300px; /*Establece la altura*/
+}
+
+aside {
+    background-color: #ddd; /*Establece el color de fondo*/
+    padding: 20px; /*Establece el relleno*/
+    text-align: center; /*Alinea el texto al centro*/
+    margin: 20px 0; /*Establece un margen en la parte superior e inferior de la barra lateral*/
+}
+
+aside video {
+    width: 50%; /*Establece el ancho de los vídeos a la mitad del ancho de la barra lateral*/
+    height: auto; /*Establece la altura de los vídeos a auto para mantener las proporciones originales*/
+    max-height: 100%; /*Asegura que los vídeos no se estiren más allá de su altura original*/
+}
+
+footer {
+    background-color: #354776; /*Define el color de fondo*/
+    color: white; /*Define el color del texto*/
+    text-align: center; /*Alinea el texto al centro*/
+    padding: 10px 0; /*Define el relleno para el pie de página*/
+    position: fixed; /*Fija la posición del pie de página en la parte inferior de la pantalla*/
+    width: 100%; /*Establece el ancho del pie de página al 100% del ancho de la pantalla*/
+    bottom: 0; /*Alinea el pie de página al final de la página*/
+}

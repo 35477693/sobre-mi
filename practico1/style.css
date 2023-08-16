@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculadora {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #5c6ac4;
+}
+
+input, select {
+    margin: 10px;
+}
+
+button {
+    background-color: #5c6ac4;
+    color: #ffffff;
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: #3f4d8f;
+}

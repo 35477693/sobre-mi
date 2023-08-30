@@ -1,0 +1,78 @@
+/* Estilos generales */
+body{
+font-family: 'Arial', sans-serif;
+background-color: #f4f4f4;
+color: #333;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+margin: 0;
+}
+
+h1{
+color: #444;
+ margin-bottom: 20px;
+}
+
+/* Estilos para el input y botón */
+input, button{
+padding: 10px 15px;
+margin: 5px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+}
+
+button{
+background-color: #007BFF;
+color: #fff;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+button:hover{
+background-color: #0056b3;
+}
+
+/* Estilos para las imágenes y su texto */
+.imagenes{
+display: flex; 
+justify-content: center;
+}
+
+.imagen-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 10px;
+}
+
+img{
+cursor: pointer;
+width: 80px;
+height: 80px;
+transition: transform 0.3s ease;
+}
+
+img:hover{
+transform: scale(1.1);
+}
+
+.imagen-container p{
+margin-top: 5px;
+font-weight: bold;
+}
+
+/* Estilos para la retroalimentación visual */
+.imagen-container.selected{
+border: 3px solid #007BFF;
+padding: 5px;
+border-radius: 8px;
+}
+
+/* Transiciones suaves para elementos interactivos */
+button, img, .imagen-container{
+transition: all 0.3s ease;
+}
